@@ -1,0 +1,21 @@
+#search-bar {
+  margin: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#img-container {
+  margin: 70px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+img {
+    margin: 12px;
+    height: 150px;
+    width: 202px;
+    border-radius: 2px;
+}

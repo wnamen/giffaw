@@ -15,22 +15,21 @@
 		<script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
     <script src="scripts/app.js"></script>
 
-		<title>Giffaw</title>
+		<title>giffaw</title>
 
 	</head>
 	<body>
 		<div class="container">
-			<h1 class="text-center">Giffaw</h1>
+			<h1 class="text-center jumbotron">giffaw</h1>
 			<div class="row">
-				<div class="col-sm-4">
-					<form class="form-inline" method="GET" action="http://api.giphy.com/v1/gifs/search?">
-						<label>Search Gifs</label>
-						<input type="text" class="form-control gif-input" name="q" value="puppies" placeholder="search gifs">
+				<div id="search-bar" class="col-sm-4">
+					<form class="form-inline" method="GET">
+						<input type="text" class="form-control gif-input" name="q" value="" placeholder="search gifs">
 						<input type="hidden" name="api_key" value="dc6zaTOxFJmzC">
 						<input type="submit" value="Go!" class="btn btn-primary">
 					</form>
 				</div>
-				<div class="col-sm-8">
+				<div id="img-container">
 					<div class="gif-gallery"></div>
 				</div>
 			</div>
