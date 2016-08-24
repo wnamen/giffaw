@@ -2,7 +2,7 @@ $(document).on("ready", function(){
 
   $.ajax({
     method: "GET",
-    url: "http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC",
+    url: "https://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC",
     dataType: "json",
     success: onSuccess,
     error: onError
@@ -15,7 +15,7 @@ $(document).on("ready", function(){
 
     $.ajax({
       method: "GET",
-      url: "http://api.giphy.com/v1/gifs/search",
+      url: "https://api.giphy.com/v1/gifs/search",
       data: $("form").serialize(),
       dataType: "json",
       success: onSuccess,
